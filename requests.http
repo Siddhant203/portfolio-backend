@@ -1,0 +1,11 @@
+## Create  a project
+POST http://localhost:8080/api/projects
+Content-Type: application/json
+
+{
+  "title": "Weather App",
+  "description": "A responsive weather application that displaycurrent weather information",
+  "technologies": "HTML, CSS, JavaScript, Wather API",
+  "githuUrl": "www.githu.com/username/weather app",
+  "liveUrl": "www.MyWeatherInfo.com"
+}
